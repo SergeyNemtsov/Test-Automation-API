@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "98f4499b-72db-4fbc-96eb-8225a30df297",
+		"name": "it-online-school",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23701377"
+	},
+	"item": [
+		{
+			"name": "Activity",
+			"item": [
+				{
+					"name": "GetActivity",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "text",
+									"value": "I'd like a pint of ale",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/activity?type=social&participants=2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"activity"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "social"
+								},
+								{
+									"key": "participants",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Translation",
+			"item": [
+				{
+					"name": "Mandalorian",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "text",
+									"value": "I'd like a pint of ale",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host2}}{{lang-m}}",
+							"host": [
+								"{{host2}}{{lang-m}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

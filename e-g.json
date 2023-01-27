@@ -1,0 +1,27 @@
+{
+	"id": "fedf2f1a-9246-42c2-8881-66088e08c323",
+	"values": [
+		{
+			"key": "host",
+			"value": " https://www.boredapi.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "host2",
+			"value": "https://api.funtranslations.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "lang-m",
+			"value": "/translate/mandalorian",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-01-27T14:25:00.860Z",
+	"_postman_exported_using": "Postman/10.8.11-230125-1159"
+}
